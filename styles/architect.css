@@ -174,7 +174,7 @@ main {
     padding: 0px 42px 30px 30px;
 }
 
-.section-2-img{
+.section-2-img {
     max-width: 708px;
     max-height: 982px;
 }
@@ -197,6 +197,52 @@ main {
     color: #FFF;
     font-size: 25px;
     font-weight: 500;
+}
+
+.section-3 {
+    max-width: 1440px;
+    margin: 130px auto;
+}
+
+.fact {
+    max-width: 542px;
+}
+
+.fact-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.fact-desc {
+    color: var(--Dark-03, #727272);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card-title {
+    color: #424242;
+    font-size: 2.9rem;
+    font-weight: 600;
+}
+
+.card-description {
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.fact-card {
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fact-card-1 {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 45px 36px 59px 35px;
 }
 
 /* Main Section Ends */
@@ -228,20 +274,27 @@ main {
         margin: 25px auto;
         justify-content: center;
     }
-    .section-2{
+
+    .section-2 {
         flex-direction: column;
         margin: 0px;
         gap: 0px;
     }
-    .section-2-img img{
+
+    .section-2-img img {
         width: 100%;
     }
-    .section-2-img button{
+
+    .section-2-img button {
         position: static;
     }
-    .section-2-img{
+
+    .section-2-img {
         text-align: center;
         margin-top: 0px;
+    }
+    .fact-card{
+        flex-direction: column;
     }
 }
 
@@ -266,22 +319,33 @@ main {
         margin: 25px auto;
         justify-content: center;
     }
-    .section-2{
+
+    .section-2 {
         flex-direction: column;
         margin: 0px;
         gap: 0px;
     }
-    .section-2-img button{
+
+    .section-2-img button {
         position: static;
     }
-    .section-2-img{
+
+    .section-2-img {
         text-align: center;
         margin-top: 0px;
     }
-    .feature-title, .feature-description, .feature-1, .feature-description-1{
+
+    .feature-title,
+    .feature-description,
+    .feature-1,
+    .feature-description-1 {
         max-width: none;
     }
-    
+    .fact-card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
+    }
 }
 
 /* Responsive Designs Ends */
